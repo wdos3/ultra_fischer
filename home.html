@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ultra Fischer</title>
+    <link rel="stylesheet" href="home.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <script src="home.js" defer type="module"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1405.0.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="home.html" class="ionicons"><ion-icon name="home"></ion-icon></a>
+      <a href="login/login.html" class="sign-in">SIGN IN</a>
+      <button class="sign-out hidden"></button>
+      <a href="profile.html" class="ionicons"><ion-icon name="person"></ion-icon></a>
+    </header>
+    <div class="play">
+      <div class="content">
+        <h2>Play the Computer</h2>
+        <div class="online">
+          <a href="maingame/chessboard.html"><button id="white-player" class="white" title="Play as White">Choose White</button></a>
+          <a href="maingame/chessboard.html"><button id="black-player" class="black" title="Play as Black">Choose Black</button></a>
+          <a href="maingame/chessboard.html"><button id="random-player" class="random" title="Randomly choose a color">Choose Random</button></a>
+        </div>
+        <h2>Puzzles</h2>
+        <div class="gamemode">
+          <button data-mode="guess-the-move" class="toggle" title="Under Construction">Unavailable</button>
+          <button data-mode="guess-the-rating" class="toggle" title="Under Construction">Unavailable</button>
+          <button data-mode="testing" class="toggle" title="Under Construction">Unavailable</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ultra Fischer</title>
+    <link rel="stylesheet" href="css/chessboard.css" />
+    <link rel="stylesheet" href="css/chessboard-1.0.0.min.css" />
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/chess.js"></script>
+    <script src="js/chessboard-1.0.0.js"></script>
+    <script src="js/chessboard.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="../home.html" class="ionicons"><ion-icon name="home"></ion-icon></a>
+    </header>
+    <div class="game-container">
+      <div class="board-container">
+        <div id="board" class="board"></div>
+        <div class="controls">
+          <button id="new-game">New Game</button>
+          <button id="undo">Undo</button>
+          <button id="resign">Resign</button>
+          <button id="toggle-mode">Current Mode: Player vs AI</button>
+        </div>
+      </div>
+    </div>
+    <div class="info">
+      <div id="move-history" class="move-history"></div>
+    </div>
+  </body>
+</html>
